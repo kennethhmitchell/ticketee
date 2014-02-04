@@ -18,7 +18,7 @@ feature "Viewing tickets" do
   click_link "TextMate 2"
 
   expect(page).to have_content("Make it shiny")
-  expect(page).to_not have_content("Make it shiny")
+  expect(page).to_not have_content("Standards compliance")
 
   click_link "Make it shiny"
 
